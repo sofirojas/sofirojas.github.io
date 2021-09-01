@@ -2571,7 +2571,10 @@ input, select, textarea {
 			.image.left img, .image.right img {
 				width: 100%;
 			}
-
+		.responsive {
+		  width: 100%;
+		  height: auto;
+		}
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
