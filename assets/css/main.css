@@ -4195,3 +4195,13 @@ input, select, textarea {
 					}
 
 	}
+
+/* Outreach photo: shrink to fit the space left of the text panel so the whole image (incl. upper-right corner) is visible */
+	@media screen and (min-width: 981px) {
+		#outreach, #divulgacion {
+			background-color: #1c1d26;
+			background-repeat: no-repeat;
+			background-size: calc(100vw - 28em) auto !important;
+			background-position: left center !important;
+		}
+	}
